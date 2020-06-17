@@ -19,10 +19,14 @@ Possible notification types: esx, chat, mythic and rdrp.
 To send out a notification use the following event and/or export:
 
 For triggering from server side:
-`TriggerClientEvent("r3_notifications:client:sendNotification", target, msg, style, duration)`
+```
+TriggerClientEvent("r3_notifications:client:sendNotification", target, msg, style, duration)
+```
 
 For triggering from client side:
-`exports["r3_notifications"]:clientSendNotification(msg, style, duration)`
+```
+exports["r3_notifications"]:clientSendNotification(msg, style, duration)
+```
 
 ### Parameters
 
